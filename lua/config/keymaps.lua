@@ -20,3 +20,5 @@ map("n", "<leader>ce", "<cmd>RustLsp explainError<cr>", { desc = "Explain Rust e
 
 map("n", "<C-d>", "<C-d>zz", { remap = false })
 map("n", "<C-u>", "<C-u>zz", { remap = false })
+map("n", "n", "nzzv", { remap = false })
+map("n", "N", "Nzzv", { remap = false })
