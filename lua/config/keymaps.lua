@@ -17,3 +17,6 @@ map("n", "<leader><Left>", "<C-w>h", { desc = "Go to left window", remap = true 
 map("n", "<leader><Up>", "<C-w>k", { desc = "Go to up window", remap = true })
 map("n", "<leader><Down>", "<C-w>j", { desc = "Go to down window", remap = true })
 map("n", "<leader>ce", "<cmd>RustLsp explainError<cr>", { desc = "Explain Rust error", remap = true })
+
+map("n", "<C-d>", "<C-d>zz", { remap = false })
+map("n", "<C-u>", "<C-u>zz", { remap = false })
